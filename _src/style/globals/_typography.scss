@@ -1,0 +1,108 @@
+@font-face {
+   font-family: 'Source Sans Pro';
+   src: url('/fonts/SourceSansPro-Regular.eot');
+   src: url('/fonts/SourceSansPro-Regular.eot?#iefix') format('embedded-opentype'),
+   url('/fonts/SourceSansPro-Regular.woff') format('woff'),
+   url('/fonts/SourceSansPro-Regular.ttf')  format('truetype'),
+   url('/fonts/SourceSansPro-Regular.svg#acb2ff9f1528a62353501911e112e2e2') format('svg');
+
+   font-style:   normal;
+   font-weight:  300;
+}
+
+@font-face {
+   font-family: 'Source Sans Pro';
+   src: url('/fonts/SourceSansPro-Semibold.eot');
+   src: url('/fonts/SourceSansPro-Semibold.eot?#iefix') format('embedded-opentype'),
+   url('/fonts/SourceSansPro-Semibold.woff') format('woff'),
+   url('/fonts/SourceSansPro-Semibold.ttf')  format('truetype'),
+   url('/fonts/SourceSansPro-Semibold.svg#f7754f3658eb134b622c7e70e8b7751b') format('svg');
+   font-style:   normal;
+   font-weight:  700;
+}
+
+@font-face {
+   font-family: 'Source Code Pro';
+   src: url('/fonts/SourceCodePro-Medium.eot');
+   src: url('/fonts/SourceCodePro-Medium.eot?#iefix') format('embedded-opentype'),
+   url('/fonts/SourceCodePro-Medium.woff') format('woff'),
+   url('/fonts/SourceCodePro-Medium.ttf')  format('truetype'),
+   url('/fonts/SourceCodePro-Medium.svg#f9ace127c4c5314f7f1e324b580059e2') format('svg');
+   font-style:   normal;
+   font-weight:  400;
+}
+
+body, input, textarea, button{
+   font-family: 'Source Sans Pro', sans-serif;
+}
+
+html{
+   font-size: 62.5%;
+   -webkit-font-smoothing: antialiased;
+}
+
+$text-s: 1.2rem;
+$text-m: 1.4rem;
+$text-l: 1.6rem;
+$text-xl: 2.1rem;
+$text-xxl: 3.2rem;
+
+h1{
+   font-size:$text-xl;
+   font-weight: 600;
+   color: $color-link;
+   margin-bottom:$text-xl;
+   white-space: nowrap;
+   position: relative;
+}
+
+h2{
+   font-size: $text-l;
+   font-weight: 600;
+   color: $color-link;
+   margin-bottom: 16px;
+}
+
+h1, h2{
+   >a{
+      font-size: $text-l;
+      color: $color-active;
+      display: none;
+      margin-left: 6px;
+   }
+
+   &:hover{
+      >a{
+         display: inline-block;
+      }
+   }
+}
+
+p, ul{
+   font-size: $text-m;
+   line-height: $text-xl;
+   color: $color-body;
+   margin-bottom: 16px;
+
+   a{
+      color: $color-active;
+      &:hover{
+         color: $color-link;
+      }
+   }
+
+   em{
+      font-style: italic;
+   }
+
+   strong{
+      font-weight: 600;
+   }
+   
+}
+p+h1{
+   margin-top: $text-xxl;
+}
+p+h2{
+   margin-top: $text-xxl;
+}

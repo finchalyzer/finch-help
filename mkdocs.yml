@@ -1,0 +1,16 @@
+site_name: Finch.io help page
+theme: null
+theme_dir: 'theme'
+
+pages:
+   - Home: "index.md"
+   - Documentation:
+      - Finch desktop: "desktop.md"
+      - Installation: "desktop/introduction.md"
+      - Editor: "desktop/editor.md"
+   - FAQ: "faq.md"
+   - Support: "support.md"
+
+markdown_extensions:
+    - toc:
+        permalink: true

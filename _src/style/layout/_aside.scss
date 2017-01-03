@@ -1,0 +1,62 @@
+aside{
+   li{
+      position: relative;
+      width: $aside-width;
+
+      &.second-level{
+         a{
+            margin-left: 16px;
+            font-weight: 400;
+            font-size: $text-m;
+            line-height: $text-m;
+            padding:8px 12px 8px 0;
+         }
+      }
+
+      &.third-level{
+         a{
+            margin-left: 32px;
+            font-weight: 400;
+            font-size: $text-m;
+         }
+      }
+
+      &:before{
+         content: "";
+         width: $gutter-l;
+         height: 100%;
+         position: absolute;
+         top: 0px;
+         left:$gutter-l*-1;
+         background: $color-background;
+      }
+
+      &.active,&:hover{
+
+         background: $color-background-active;
+
+         &:before{
+            background: $color-background-active;
+         }
+
+      }
+
+      &.selected{
+         a strong{
+            color: $color-active;
+         }
+      }
+
+      a{
+         display: block;
+         font-size: $text-l;
+         font-weight: 600;
+         color: $color-link;
+         line-height: 1.8rem;
+         padding:12px 12px 12px 0;
+         position: relative;
+         white-space: nowrap;
+         overflow: hidden;
+      }
+   }
+}

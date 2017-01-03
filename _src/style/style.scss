@@ -1,0 +1,19 @@
+@import 'vendor/reset';
+
+/* Globals */
+@import 'globals/colors';
+@import 'globals/typography';
+@import 'globals/grid';
+
+/* Layout */
+@import 'layout/header';
+@import 'layout/container';
+@import 'layout/aside';
+@import 'layout/section';
+
+/* Components */
+@import 'components/search';
+
+
+/* Page specific */
+@import 'pages/home';

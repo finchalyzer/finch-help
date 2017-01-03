@@ -1,0 +1,25 @@
+{% for nav_item in nav %}
+   {% if nav_item.children and nav_item.active %}
+   <aside>
+      <div>
+         <ul class="sidenav">
+            {% for nav_child in nav_item.children %}
+               <li class="first-level">
+                  <a title="{{ nav_child.title }}" href="{{ nav_child.url }}">
+                     {{ nav_child.title }}
+                  </a>
+               </li>
+               {% if nav_child == current_page %}
+                  {% for toc_item in toc %}
+                     <li class="second-level"><a href="{{ toc_item.url }}">{{ toc_item.title }}</a></li>
+                        {% for toc_item in toc_item.children %}
+                           <li  class="third-level" ><a href="{{ toc_item.url }}">{{ toc_item.title }}</a></li>
+                        {% endfor %}
+                     {% endfor %}
+               {% endif %}
+            {% endfor %}
+         </ul>
+      </div>
+   </aside>
+   {% endif %}
+{% endfor %}

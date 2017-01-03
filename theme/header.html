@@ -1,0 +1,23 @@
+<header>
+   <div>
+      <a href="/" id="finch-logo">Finch</a>
+      <nav>
+         {% for nav_item in nav %}
+            {% if nav_item.children %}
+               {% for nav_child in nav_item.children %}
+                  {% if loop.first %}
+                  <a title="{{ nav_item.title }}" href="{{ nav_child.url }}">
+                     {{ nav_item.title }}
+                  </a>
+                  {% endif %}
+               {% endfor %}
+            {% elif not loop.first %}
+            <a href="{{ nav_item.url }}">{{ nav_item.title }}</a>
+            {% endif %}
+         {% endfor %}
+      </nav>
+      {% if not page.is_homepage %}
+         {% include "search.html" %}
+      {% endif %}
+   </div>
+</header>

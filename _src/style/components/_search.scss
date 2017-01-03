@@ -1,0 +1,64 @@
+#search{
+
+   position: relative;
+
+   input{
+      display: block;
+      width: 350px;
+      height: 36px;
+      line-height: 18px;
+      box-sizing: border-box;
+      padding:0 35px 0 35px;
+      color: $color-body;
+      border:1px solid $color-border;
+      border-radius: 4px;
+      font-size: $text-l;
+      position: relative;
+
+      &:focus{
+         outline: none;
+         border-color: $color-active;
+      }
+
+   }
+
+   >svg{
+      position: absolute;
+      z-index: 2;
+      top:10px;
+      left: 12px;
+   }
+
+   #mkdocs-search-results{
+      position: absolute;
+      top:100%;
+      left: 0px;
+      width: 100%;
+
+      >p{
+         padding: 12px;
+         background: $color-background;
+      }
+   }
+
+   article{
+      width: 100%;
+      height: auto;
+      display: block;
+      margin: 0px;
+      padding:12px 12px 0px;
+      border-bottom: 1px solid $color-border;
+      background: $color-background;
+
+      a{
+         color: $color-active;
+         font-size: $text-m;
+      }
+
+      p{
+         padding:12px 0 0 0;
+         font-size: $text-s;
+      }
+   }
+
+}
