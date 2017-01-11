@@ -8,6 +8,7 @@ header{
    background: $color-background;
    position: fixed;
    top: 0px;
+   z-index: 3;
 
    >div{
       position: relative;

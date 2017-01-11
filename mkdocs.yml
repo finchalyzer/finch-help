@@ -6,7 +6,7 @@ pages:
    - Home: "index.md"
    - Documentation:
       - Finch desktop: "desktop.md"
-      - Installation: "desktop/introduction.md"
+      - Installation: "desktop/installation.md"
       - Editor: "desktop/editor.md"
    - FAQ: "faq.md"
    - Support: "support.md"

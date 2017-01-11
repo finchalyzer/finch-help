@@ -34,6 +34,8 @@
       top:100%;
       left: 0px;
       width: 100%;
+      z-index: 3;
+      background: $color-background;
 
       >p{
          padding: 12px;
@@ -50,14 +52,43 @@
       border-bottom: 1px solid $color-border;
       background: $color-background;
 
+      h3{
+         margin-bottom: 0px;
+         a{
+            display: block;
+            margin: 0px;
+            &:hover{
+               color:$color-link;
+            }
+         }
+      }
+
       a{
          color: $color-active;
          font-size: $text-m;
       }
 
       p{
-         padding:12px 0 0 0;
+         padding:0 0 0 0;
          font-size: $text-s;
+         width: 100%;
+         height: 24px;
+         white-space: nowrap;
+         overflow: hidden;
+         position: relative;
+         &:after{
+            content: "";
+            width: 50px;
+            height: 100%;
+            position: absolute;
+            top:0px;
+            left: auto;
+            right: 0px;
+            background: red;
+            background: -moz-linear-gradient(left,  rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+            background: -webkit-linear-gradient(left,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%);
+            background: linear-gradient(to right,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%);
+         }
       }
    }
 

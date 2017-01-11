@@ -1,4 +1,11 @@
 aside{
+
+   width: 180px;
+
+   ul{
+      position: fixed;
+   }
+
    li{
       position: relative;
       width: $aside-width;

@@ -1,14 +1,18 @@
 {
-   "name": "finch-help",
-   "description": "Finch.io help page",
-   "repository": {
-      "type": "git",
-      "url": "https://github.com/finchalyzer/finchalyzer.github.io.git"
-   },
-   "version": "0.1.0",
-   "license": "MIT",
-   "devDependencies": {
-      "gulp": "^3.9.1",
-      "gulp-sass": "^3.0.0"
-   }
+  "name": "finch-help",
+  "description": "Finch.io help page",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/finchalyzer/finchalyzer.github.io.git"
+  },
+  "version": "0.1.0",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.0.0"
+  },
+  "dependencies": {
+    "gulp-typescript": "^3.1.4",
+    "typescript": "^2.1.4"
+  }
 }

@@ -1,9 +1,9 @@
-Welcome to the user manual for Finch desktop application. The content of this manual is suited for both novice and advanced users.
+Welcome to the documentation for Finch desktop application. This documentation covers essential information on the Finch specific functionality.
 
-If you have any questions or ideas concerning the contents of this manual, feel free to contact us at [win@finch.io](mailto:win@finch.io).
+For content or feature ideas, drop us a line at [win@finch.io](mailto:win@finch.io).
 
 ## Links and resources
 
-- [Download Finch](https://finch.io/download/latest)
+- [Finch desktop download link](https://finch.io/download/latest)
+- [Link to Finch web application](https://beta.finch.io)
 - [Support page](support.md)
-- [Application page](https://dev.finch.io)
