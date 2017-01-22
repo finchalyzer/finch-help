@@ -9,8 +9,8 @@
                      {{ nav_child.title }}
                   </a>
                </li>
-               {% if nav_child == current_page %}
-                  {% for toc_item in toc %}
+               {% if nav_child == page %}
+                  {% for toc_item in page.toc %}
                      <li class="second-level"><a href="{{ toc_item.url }}">{{ toc_item.title }}</a></li>
                      {% endfor %}
                {% endif %}
