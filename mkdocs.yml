@@ -1,6 +1,8 @@
 site_name: Finch.io help page
 theme: null
-theme_dir: 'theme'
+theme_dir: "theme"
+docs_dir: "content"
+site_dir: "docs"
 
 pages:
    - Home: "index.md"

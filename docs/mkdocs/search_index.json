@@ -1,0 +1,104 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "FAQ\n\n\nDesktop documentation\n\n\nSupport", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/desktop/", 
+            "text": "Welcome to the documentation for Finch desktop application. This documentation covers essential information on the Finch specific functionality.\n\n\nFor content or feature ideas, drop us a line at \nwin@finch.io\n.\n\n\nLinks and resources\n\n\n\n\nFinch desktop download link\n\n\nLink to Finch web application\n\n\nSupport page", 
+            "title": "Finch desktop"
+        }, 
+        {
+            "location": "/desktop/#links-and-resources", 
+            "text": "Finch desktop download link  Link to Finch web application  Support page", 
+            "title": "Links and resources"
+        }, 
+        {
+            "location": "/desktop/installation/", 
+            "text": "You can always get the latest version of Finch desktop application at \nhttps://finch.io/download/latest/\n\n\nMinimum requirements\n\n\nIn order to you use Finch, you must be running Mac OS X Yosemite (version 10.10) or higher. As minimum Finch requires 120 Mb of free disk space.\n\n\nUpdates\n\n\nFinch desktop application updates are free and built-in. You'll get an in-app notification when a new version comes out.", 
+            "title": "Installation"
+        }, 
+        {
+            "location": "/desktop/installation/#minimum-requirements", 
+            "text": "In order to you use Finch, you must be running Mac OS X Yosemite (version 10.10) or higher. As minimum Finch requires 120 Mb of free disk space.", 
+            "title": "Minimum requirements"
+        }, 
+        {
+            "location": "/desktop/installation/#updates", 
+            "text": "Finch desktop application updates are free and built-in. You'll get an in-app notification when a new version comes out.", 
+            "title": "Updates"
+        }, 
+        {
+            "location": "/desktop/editor/", 
+            "text": "This is the very heart of Finch. The editor gives you the power to edit element style and position.\n\n\nWe try to keep the editor intuitive and simple but this documentation covers some \ntips \n tricks\n that can help you to do things way faster.\n\n\nSelecting elements\n\n\nTo edit an element just click on it and make the changes in the editor sidebar.\n\n\nTo select multiple elements at once use \n \nclick\n.\n\n\nTo select similar elements \n(e.g. menu elements)\n first select one of them and then \n\u21e7\n \nclick\n another. Finch will use a \nsmart selector\n that will select all the other similar elements in the current page.\n\n\nHotkeys\n\n\nGeneral shortcuts\n\n\n\n\nF\n show/hide editor\n\n\nR\n show/hide rulers\n\n\nM\n measure tool\n\n\n \nZ\n undo\n\n\n \n\u21e7\n \nZ\n redo\n\n\n\n\nBrowser\n\n\n\n\n \nR\n reload current page\n\n\n \n0\n make page full width\n\n\n \n1 - 3\n switch page size from desktop/tablet/mobile\n\n\n\n\nElement selection and resize\n\n\n\n\nEsc\n clear element selection\n\n\n \nclick\n add a unique element to selection\n\n\n\u21e7\n \nclick\n select multiple similar elements\n\n\nALT\n \nhover\n select multiple similar elements\n\n\n\n\nText elements\n\n\n\n\n \nB\n Bold\n\n\n \nI\n Italic\n\n\n \nU\n Underline\n\n\n\n\nCode\n\n\n\n\nC\n show/hide code console\n\n\n \nE\n export changes to file\n\n\n \n\u21e7\n \nE\n export minified and prefixed changes", 
+            "title": "Editor"
+        }, 
+        {
+            "location": "/desktop/editor/#selecting-elements", 
+            "text": "To edit an element just click on it and make the changes in the editor sidebar.  To select multiple elements at once use    click .  To select similar elements  (e.g. menu elements)  first select one of them and then  \u21e7   click  another. Finch will use a  smart selector  that will select all the other similar elements in the current page.", 
+            "title": "Selecting elements"
+        }, 
+        {
+            "location": "/desktop/editor/#hotkeys", 
+            "text": "", 
+            "title": "Hotkeys"
+        }, 
+        {
+            "location": "/desktop/editor/#general-shortcuts", 
+            "text": "F  show/hide editor  R  show/hide rulers  M  measure tool    Z  undo    \u21e7   Z  redo", 
+            "title": "General shortcuts"
+        }, 
+        {
+            "location": "/desktop/editor/#browser", 
+            "text": "R  reload current page    0  make page full width    1 - 3  switch page size from desktop/tablet/mobile", 
+            "title": "Browser"
+        }, 
+        {
+            "location": "/desktop/editor/#element-selection-and-resize", 
+            "text": "Esc  clear element selection    click  add a unique element to selection  \u21e7   click  select multiple similar elements  ALT   hover  select multiple similar elements", 
+            "title": "Element selection and resize"
+        }, 
+        {
+            "location": "/desktop/editor/#text-elements", 
+            "text": "B  Bold    I  Italic    U  Underline", 
+            "title": "Text elements"
+        }, 
+        {
+            "location": "/desktop/editor/#code", 
+            "text": "C  show/hide code console    E  export changes to file    \u21e7   E  export minified and prefixed changes", 
+            "title": "Code"
+        }, 
+        {
+            "location": "/faq/", 
+            "text": "These are most common answers to frequently asked questions by Finch users.\n\n\nIf you don't find an answer you are looking for, please take a look at the \nDocumentation\n or drop a line to \nwin@finch.io\n\n\nWhat's the difference between Finch web and desktop applications?\n\n\nThe \nEditor\n is available only in the desktop application.\n\n\nWith both desktop and web applications you can add, manage, share your projects and versions. All team, account and connection settings are also there.\n\n\nIs Finch desktop available for Windows or Linux?\n\n\nNot yet, but that's not impossible \ud83e\udd14\n\n\nIf you have a serious need for this, please contact as at \nwin@finch.io\n\n\nCan I install Finch on multiple computers?\n\n\nYes! Finch is not limited to installation count. Your'e good to go as long as you're the only one using your Finch user account.\n\n\nHow can I report  a bug or submit a feature request?\n\n\nFinch desktop application has a built-in tool to submit feedback. Just go to \nFinch\n item in the menubar and select \nSend feedback\n.\n\n\nIn addition to the message you will provide, we will collect anonymized application state information \u2013 what Finch application windows are  open, in what state are they and the size of your screen.", 
+            "title": "FAQ"
+        }, 
+        {
+            "location": "/faq/#whats-the-difference-between-finch-web-and-desktop-applications", 
+            "text": "The  Editor  is available only in the desktop application.  With both desktop and web applications you can add, manage, share your projects and versions. All team, account and connection settings are also there.", 
+            "title": "What's the difference between Finch web and desktop applications?"
+        }, 
+        {
+            "location": "/faq/#is-finch-desktop-available-for-windows-or-linux", 
+            "text": "Not yet, but that's not impossible \ud83e\udd14  If you have a serious need for this, please contact as at  win@finch.io", 
+            "title": "Is Finch desktop available for Windows or Linux?"
+        }, 
+        {
+            "location": "/faq/#can-i-install-finch-on-multiple-computers", 
+            "text": "Yes! Finch is not limited to installation count. Your'e good to go as long as you're the only one using your Finch user account.", 
+            "title": "Can I install Finch on multiple computers?"
+        }, 
+        {
+            "location": "/faq/#how-can-i-report-a-bug-or-submit-a-feature-request", 
+            "text": "Finch desktop application has a built-in tool to submit feedback. Just go to  Finch  item in the menubar and select  Send feedback .  In addition to the message you will provide, we will collect anonymized application state information \u2013 what Finch application windows are  open, in what state are they and the size of your screen.", 
+            "title": "How can I report  a bug or submit a feature request?"
+        }, 
+        {
+            "location": "/support/", 
+            "text": "Use the feedback form in the application (\nFinch\u2192Send feedback\n) or hit an email to \nwin@finch", 
+            "title": "Support"
+        }
+    ]
+}
