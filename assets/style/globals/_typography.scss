@@ -84,7 +84,7 @@ h1, h2{
    z-index: 1;
 }
 
-p+h1, p+h2, ul+h1, ul+h2{
+p+h1, p+h2, ul+h1, ul+h2, blockquote+h2, blockquote+h1{
    padding-top: 75px;
    margin-top: -55px;
 }

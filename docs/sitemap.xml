@@ -4,7 +4,7 @@
     
     <url>
      <loc>/</loc>
-     <lastmod>2017-01-22</lastmod>
+     <lastmod>2017-01-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -13,19 +13,25 @@
         
     <url>
      <loc>/desktop/</loc>
-     <lastmod>2017-01-22</lastmod>
+     <lastmod>2017-01-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/desktop/installation/</loc>
-     <lastmod>2017-01-22</lastmod>
+     <lastmod>2017-01-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/desktop/editor/</loc>
-     <lastmod>2017-01-22</lastmod>
+     <lastmod>2017-01-24</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/desktop/media-queries/</loc>
+     <lastmod>2017-01-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -34,7 +40,7 @@
     
     <url>
      <loc>/faq/</loc>
-     <lastmod>2017-01-22</lastmod>
+     <lastmod>2017-01-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -42,7 +48,7 @@
     
     <url>
      <loc>/support/</loc>
-     <lastmod>2017-01-22</lastmod>
+     <lastmod>2017-01-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
     

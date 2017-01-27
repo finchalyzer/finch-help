@@ -10,6 +10,7 @@ pages:
       - Finch desktop: "desktop.md"
       - Installation: "desktop/installation.md"
       - Editor: "desktop/editor.md"
+      - Media queries: "desktop/media-queries.md"
    - FAQ: "faq.md"
    - Support: "support.md"
 
