@@ -11,6 +11,7 @@ pages:
       - Installation: "desktop/installation.md"
       - Editor: "desktop/editor.md"
       - Media queries: "desktop/media-queries.md"
+      - Wordpress: "desktop/wordpress.md"
    - FAQ: "faq.md"
    - Support: "support.md"
 
