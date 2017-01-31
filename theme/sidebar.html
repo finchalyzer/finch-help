@@ -9,10 +9,21 @@
                      {{ nav_child.title }}
                   </a>
                </li>
+               {% if page in nav_child.children %}
+                  {% for nav_grandchild in nav_child.children %}
+                     <li class="second-level"><a href="{{ nav_grandchild.url }}">{{ nav_grandchild.title }}</a></li>
+                  {% endfor %}
+               {% endif %}
                {% if nav_child == page %}
-                  {% for toc_item in page.toc %}
-                     <li class="second-level"><a href="{{ toc_item.url }}">{{ toc_item.title }}</a></li>
+                  {% if nav_child.children %}
+                     {% for nav_grandchild in nav_child.children %}
+                        <li class="second-level"><a href="{{ nav_grandchild.url }}">{{ nav_grandchild.title }}</a></li>
                      {% endfor %}
+                  {% else %}
+                     {% for toc_item in page.toc %}
+                        <li class="second-level"><a href="{{ toc_item.url }}">{{ toc_item.title }}</a></li>
+                     {% endfor %}
+                  {% endif %}
                {% endif %}
             {% endfor %}
          </ul>

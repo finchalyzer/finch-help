@@ -7,11 +7,17 @@ site_dir: "docs"
 pages:
    - Home: "index.md"
    - Documentation:
-      - Finch desktop: "desktop.md"
-      - Installation: "desktop/installation.md"
-      - Editor: "desktop/editor.md"
-      - Media queries: "desktop/media-queries.md"
-      - Wordpress: "desktop/wordpress.md"
+      - Documentation: "documentation.md"
+      - Finch desktop:
+         - "desktop/index.md"
+         - Installation: "desktop/installation.md"
+         - Editor: "desktop/editor.md"
+         - Hotkeys: "desktop/hotkeys.md"
+         - Media queries: "desktop/media-queries.md"
+      - Wordpress:
+         - "wordpress/index.md"
+         - Installation: "wordpress/installation.md"
+         - Usage: "wordpress/usage.md"
    - FAQ: "faq.md"
    - Support: "support.md"
 

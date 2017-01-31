@@ -6,14 +6,19 @@
             "title": "Home"
         }, 
         {
-            "location": "/desktop/", 
-            "text": "Welcome to the documentation for Finch desktop application. This documentation covers essential information on the Finch specific functionality.\n\n\nFor content or feature ideas, drop us a line at \nwin@finch.io\n.\n\n\nLinks and resources\n\n\n\n\nFinch desktop download link\n\n\nLink to Finch web application\n\n\nSupport page", 
-            "title": "Finch desktop"
+            "location": "/documentation/", 
+            "text": "Welcome to the documentation for Finch. This documentation covers essential information on the Finch specific functionality.\n\n\nFor content or feature ideas, drop us a line at \nwin@finch.io\n.\n\n\nLinks and resources\n\n\n\n\nFinch desktop download link\n\n\nFinch web application\n\n\nSupport page", 
+            "title": "Documentation"
         }, 
         {
-            "location": "/desktop/#links-and-resources", 
-            "text": "Finch desktop download link  Link to Finch web application  Support page", 
+            "location": "/documentation/#links-and-resources", 
+            "text": "Finch desktop download link  Finch web application  Support page", 
             "title": "Links and resources"
+        }, 
+        {
+            "location": "/desktop/", 
+            "text": "We try to keep the Finch desktop application intuitive and simple and this documentation covers some \ntips \n tricks\n that can help you to get things done even faster.", 
+            "title": "Finch desktop"
         }, 
         {
             "location": "/desktop/installation/", 
@@ -32,41 +37,41 @@
         }, 
         {
             "location": "/desktop/editor/", 
-            "text": "This is the very heart of Finch. The editor gives you the power to edit element style and position.\n\n\nWe try to keep the editor intuitive and simple but this documentation covers some \ntips \n tricks\n that can help you to do things way faster.\n\n\nSelecting elements\n\n\nTo edit an element just click on it and make the changes in the editor sidebar.\n\n\nTo select multiple elements at once use \n \nclick\n.\n\n\nTo select similar elements \n(e.g. menu elements)\n first select one of them and then \n\u21e7\n \nclick\n another. Finch will use a \nsmart selector\n that will select all the other similar elements in the current page.\n\n\nHotkeys\n\n\nGeneral shortcuts\n\n\n\n\nF\n show/hide editor\n\n\nR\n show/hide rulers\n\n\nM\n measure tool\n\n\n \nZ\n undo\n\n\n \n\u21e7\n \nZ\n redo\n\n\n\n\nBrowser\n\n\n\n\n \nR\n reload current page\n\n\n \n0\n make page full width\n\n\n \n1 - 3\n switch page size from desktop/tablet/mobile\n\n\n\n\nElement selection and resize\n\n\n\n\nEsc\n clear element selection\n\n\n \nclick\n add a unique element to selection\n\n\n\u21e7\n \nclick\n select multiple similar elements\n\n\nALT\n \nhover\n select multiple similar elements\n\n\n\n\nText elements\n\n\n\n\n \nB\n Bold\n\n\n \nI\n Italic\n\n\n \nU\n Underline\n\n\n\n\nCode\n\n\n\n\nC\n show/hide code console\n\n\n \nE\n export changes to file\n\n\n \n\u21e7\n \nE\n export minified and prefixed changes", 
+            "text": "This is the very heart of Finch. The editor gives you the power to edit element style and position.\n\n\nSelecting elements\n\n\nTo edit an element just click on it and make the changes in the editor sidebar.\n\n\nTo select multiple elements at once use \n \nclick\n.\n\n\n\n\n\n\n\n\n \nclick\n to select unique elements\n\n\n\n\n\n\nTo select similar elements \n(e.g. menu elements)\n first select one of them and then \n\u21e7\n \nclick\n another. Finch will use a \nsmart selector\n that will select all the other similar elements in the current page.\n\n\n\n\n\n\n\n\n\u21e7\n \nclick\n to select similar elements", 
             "title": "Editor"
         }, 
         {
             "location": "/desktop/editor/#selecting-elements", 
-            "text": "To edit an element just click on it and make the changes in the editor sidebar.  To select multiple elements at once use    click .  To select similar elements  (e.g. menu elements)  first select one of them and then  \u21e7   click  another. Finch will use a  smart selector  that will select all the other similar elements in the current page.", 
+            "text": "To edit an element just click on it and make the changes in the editor sidebar.  To select multiple elements at once use    click .       click  to select unique elements    To select similar elements  (e.g. menu elements)  first select one of them and then  \u21e7   click  another. Finch will use a  smart selector  that will select all the other similar elements in the current page.     \u21e7   click  to select similar elements", 
             "title": "Selecting elements"
         }, 
         {
-            "location": "/desktop/editor/#hotkeys", 
-            "text": "", 
+            "location": "/desktop/hotkeys/", 
+            "text": "General shortcuts\n\n\n\n\nF\n show/hide editor\n\n\nR\n show/hide rulers\n\n\nM\n measure tool\n\n\n \nZ\n undo\n\n\n \n\u21e7\n \nZ\n redo\n\n\n\n\nBrowser\n\n\n\n\n \nR\n reload current page\n\n\n \n0\n make page full width\n\n\n \n1 - 3\n switch page size from desktop/tablet/mobile\n\n\n\n\nElement selection and resize\n\n\n\n\nEsc\n clear element selection\n\n\n \nclick\n add a unique element to selection\n\n\n\u21e7\n \nclick\n select multiple similar elements\n\n\nALT\n \nhover\n select multiple similar elements\n\n\n\n\nText elements\n\n\n\n\n \nB\n Bold\n\n\n \nI\n Italic\n\n\n \nU\n Underline\n\n\n\n\nCode\n\n\n\n\nC\n show/hide code console\n\n\n \nE\n export changes to file\n\n\n \n\u21e7\n \nE\n export minified and prefixed changes", 
             "title": "Hotkeys"
         }, 
         {
-            "location": "/desktop/editor/#general-shortcuts", 
+            "location": "/desktop/hotkeys/#general-shortcuts", 
             "text": "F  show/hide editor  R  show/hide rulers  M  measure tool    Z  undo    \u21e7   Z  redo", 
             "title": "General shortcuts"
         }, 
         {
-            "location": "/desktop/editor/#browser", 
+            "location": "/desktop/hotkeys/#browser", 
             "text": "R  reload current page    0  make page full width    1 - 3  switch page size from desktop/tablet/mobile", 
             "title": "Browser"
         }, 
         {
-            "location": "/desktop/editor/#element-selection-and-resize", 
+            "location": "/desktop/hotkeys/#element-selection-and-resize", 
             "text": "Esc  clear element selection    click  add a unique element to selection  \u21e7   click  select multiple similar elements  ALT   hover  select multiple similar elements", 
             "title": "Element selection and resize"
         }, 
         {
-            "location": "/desktop/editor/#text-elements", 
+            "location": "/desktop/hotkeys/#text-elements", 
             "text": "B  Bold    I  Italic    U  Underline", 
             "title": "Text elements"
         }, 
         {
-            "location": "/desktop/editor/#code", 
+            "location": "/desktop/hotkeys/#code", 
             "text": "C  show/hide code console    E  export changes to file    \u21e7   E  export minified and prefixed changes", 
             "title": "Code"
         }, 
@@ -84,6 +89,46 @@
             "location": "/desktop/media-queries/#selecting-media-queries", 
             "text": "To make changes only in a certain media range,  click  on the media range.  Use  \u21e7   click  to select multiple media queries.     \u21e7   click  to select multiple media queries", 
             "title": "Selecting media queries"
+        }, 
+        {
+            "location": "/wordpress/", 
+            "text": "Finch Wordpress plugin is a seamless integration, allowing you to access all of your site's versions and to set them live instantly from the Wordpress Dashboard.\n\n\nLinks and resources\n\n\n\n\nFinch Wordpress plugin page", 
+            "title": "Wordpress"
+        }, 
+        {
+            "location": "/wordpress/#links-and-resources", 
+            "text": "Finch Wordpress plugin page", 
+            "title": "Links and resources"
+        }, 
+        {
+            "location": "/wordpress/installation/", 
+            "text": "You can get the the latest version from the \nofficial Wordpress Plugin Directory\n.\n\n\nAfter installing and activating it as any other Wordpress plugin, it is also necessary to connect the plugin with Finch. This is done by registering your Finch project's API credentials in the plugin settings view.\n\n\nFinding the API credentials\n\n\nThe API credentials is a pair that consist of an API key and an API secret. Both of these can be found under the project options dropdown.\n\n\n\n\n\n\n\n\nFinding your API credentials\n\n\n\n\n\n\nDon't tell\n your API credentials to anyone!\n\n\nConnecting the Wordpress plugin\n\n\nCopy and paste your API credentials to their respective fields in \nSettings -\n Finch\n screen in the Wordpress Dashboard.\n\n\nIf there's a problem, recheck the credentials you've provided. If problems still persist, feel free to \ncontact us\n!", 
+            "title": "Installation"
+        }, 
+        {
+            "location": "/wordpress/installation/#finding-the-api-credentials", 
+            "text": "The API credentials is a pair that consist of an API key and an API secret. Both of these can be found under the project options dropdown.     Finding your API credentials    Don't tell  your API credentials to anyone!", 
+            "title": "Finding the API credentials"
+        }, 
+        {
+            "location": "/wordpress/installation/#connecting-the-wordpress-plugin", 
+            "text": "Copy and paste your API credentials to their respective fields in  Settings -  Finch  screen in the Wordpress Dashboard.  If there's a problem, recheck the credentials you've provided. If problems still persist, feel free to  contact us !", 
+            "title": "Connecting the Wordpress plugin"
+        }, 
+        {
+            "location": "/wordpress/usage/", 
+            "text": "As soon as your API credentials are registered and the plugin is connected, you can start using it and managing your live versions.\n\n\nSetting live versions\n\n\nYou can access all of your versions under \nAppearance -\n Versions\n screen in the Wordpress Dashboard.\n\n\nHere you can choose any of your existing versions and instantly make it live by hitting \nActivate\n. It works exactly like you'd activate a Wordpress theme.\n\n\nCreating versions\n\n\nTo create new versions and edit existing ones, you need to use the Finch desktop application. All changes will be reflected on your Wordpress site as soon as you access it.\n\n\nPlease note that the Wordpress plugin \nis not\n standalone and you need our desktop app to use it as intended. If you have any problems installing the application, please check the \nInstallation\n section.", 
+            "title": "Usage"
+        }, 
+        {
+            "location": "/wordpress/usage/#setting-live-versions", 
+            "text": "You can access all of your versions under  Appearance -  Versions  screen in the Wordpress Dashboard.  Here you can choose any of your existing versions and instantly make it live by hitting  Activate . It works exactly like you'd activate a Wordpress theme.", 
+            "title": "Setting live versions"
+        }, 
+        {
+            "location": "/wordpress/usage/#creating-versions", 
+            "text": "To create new versions and edit existing ones, you need to use the Finch desktop application. All changes will be reflected on your Wordpress site as soon as you access it.  Please note that the Wordpress plugin  is not  standalone and you need our desktop app to use it as intended. If you have any problems installing the application, please check the  Installation  section.", 
+            "title": "Creating versions"
         }, 
         {
             "location": "/faq/", 

@@ -1,3 +1,3 @@
 - [FAQ](faq.md)
-- [Desktop documentation](desktop.md)
+- [Desktop documentation](desktop/index.md)
 - [Support](support.md)

@@ -1,6 +1,6 @@
 These are most common answers to frequently asked questions by Finch users.
 
-If you don't find an answer you are looking for, please take a look at the [Documentation](desktop.md) or drop a line to [win@finch.io](mailto:win@finch.io)
+If you don't find an answer you are looking for, please take a look at the [Documentation](documentation.md) or drop a line to [win@finch.io](mailto:win@finch.io)
 
 ## What's the difference between Finch web and desktop applications?
 
