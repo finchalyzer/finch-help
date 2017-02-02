@@ -18,6 +18,7 @@ pages:
          - "wordpress/index.md"
          - Installation: "wordpress/installation.md"
          - Usage: "wordpress/usage.md"
+         - Troubleshooting: "wordpress/troubleshooting.md"
    - FAQ: "faq.md"
    - Support: "support.md"
 
