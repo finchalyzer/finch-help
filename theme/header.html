@@ -1,6 +1,7 @@
 <header>
    <div>
       <a href="/" id="finch-logo">Finch</a>
+      {% if not page.is_homepage %}
       <nav>
          {% for nav_item in nav %}
             {% if nav_item.children %}
@@ -16,8 +17,9 @@
             {% endif %}
          {% endfor %}
       </nav>
-      {% if not page.is_homepage %}
-         {% include "search.html" %}
+      {% include "search.html" %}
+      {% else %}
+      <h1>Finch help center</h1>
       {% endif %}
    </div>
 </header>

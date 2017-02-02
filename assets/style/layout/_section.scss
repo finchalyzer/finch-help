@@ -5,7 +5,7 @@ section{
 }
 
 aside + section{
-   padding:0 $gutter-l;
+   padding:8px $gutter-l;
 }
 
 section img{
@@ -16,7 +16,7 @@ section > blockquote{
    display: block;
    position: relative;
    max-width: 420px;
-   border: 2px solid $color-border;
+   border: 1px solid $color-border;
    margin: 20px 0;
    overflow: hidden;
 

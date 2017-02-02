@@ -2,7 +2,7 @@
     "docs": [
         {
             "location": "/", 
-            "text": "FAQ\n\n\nDesktop documentation\n\n\nSupport", 
+            "text": "Documentation\n\n\nFAQ\n\n\nSupport", 
             "title": "Home"
         }, 
         {
@@ -131,6 +131,16 @@
             "title": "Creating versions"
         }, 
         {
+            "location": "/wordpress/troubleshooting/", 
+            "text": "If you run into any problems with Finch Wordpress plugin that are not covered here, don't hesitate to \ncontact us\n directly!\n\n\nFinch plugin can't write files on my server\n\n\nIt means that your server doesn't allow Finch to save your version stylesheets locally which is done to ensure the best experience for your site's visitors.\n\n\nWith insufficient permissions the stylesheets will be served from our external CDN. \n\n\nFinch will still work\n but please note that load times could be affected negatively.\n\n\nWe strongly recommend you set up file permissions for your Finch plugin directory in a way that Wordpress can write to it.", 
+            "title": "Troubleshooting"
+        }, 
+        {
+            "location": "/wordpress/troubleshooting/#finch-plugin-cant-write-files-on-my-server", 
+            "text": "It means that your server doesn't allow Finch to save your version stylesheets locally which is done to ensure the best experience for your site's visitors.  With insufficient permissions the stylesheets will be served from our external CDN.   Finch will still work  but please note that load times could be affected negatively.  We strongly recommend you set up file permissions for your Finch plugin directory in a way that Wordpress can write to it.", 
+            "title": "Finch plugin can't write files on my server"
+        }, 
+        {
             "location": "/faq/", 
             "text": "These are most common answers to frequently asked questions by Finch users.\n\n\nIf you don't find an answer you are looking for, please take a look at the \nDocumentation\n or drop a line to \nwin@finch.io\n\n\nWhat's the difference between Finch web and desktop applications?\n\n\nThe \nEditor\n is available only in the desktop application.\n\n\nWith both desktop and web applications you can add, manage, share your projects and versions. All team, account and connection settings are also there.\n\n\nIs Finch desktop available for Windows or Linux?\n\n\nNot yet, but that's not impossible \ud83e\udd14\n\n\nIf you have a serious need for this, please contact as at \nwin@finch.io\n\n\nCan I install Finch on multiple computers?\n\n\nYes! Finch is not limited to installation count. Your'e good to go as long as you're the only one using your Finch user account.\n\n\nHow can I report  a bug or submit a feature request?\n\n\nFinch desktop application has a built-in tool to submit feedback. Just go to \nFinch\n item in the menubar and select \nSend feedback\n.\n\n\nIn addition to the message you will provide, we will collect anonymized application state information \u2013 what Finch application windows are  open, in what state are they and the size of your screen.", 
             "title": "FAQ"
@@ -157,7 +167,7 @@
         }, 
         {
             "location": "/support/", 
-            "text": "Use the feedback form in the application (\nFinch\u2192Send feedback\n) or hit an email to \nwin@finch", 
+            "text": "Use the feedback form in the application (\nFinch\u2192Send feedback\n) or hit an email to \nwin@finch.io", 
             "title": "Support"
         }
     ]

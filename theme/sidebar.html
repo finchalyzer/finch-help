@@ -4,24 +4,20 @@
       <div>
          <ul class="sidenav">
             {% for nav_child in nav_item.children %}
-               <li class="first-level">
+               <li class="first-level{% if nav_child == page %} active{% endif %}">
                   <a title="{{ nav_child.title }}" href="{{ nav_child.url }}">
                      {{ nav_child.title }}
                   </a>
                </li>
                {% if page in nav_child.children %}
                   {% for nav_grandchild in nav_child.children %}
-                     <li class="second-level"><a href="{{ nav_grandchild.url }}">{{ nav_grandchild.title }}</a></li>
+                     <li class="second-level{% if nav_grandchild == page %} active{% endif %}"><a href="{{ nav_grandchild.url }}">{{ nav_grandchild.title }}</a></li>
                   {% endfor %}
                {% endif %}
                {% if nav_child == page %}
                   {% if nav_child.children %}
                      {% for nav_grandchild in nav_child.children %}
-                        <li class="second-level"><a href="{{ nav_grandchild.url }}">{{ nav_grandchild.title }}</a></li>
-                     {% endfor %}
-                  {% else %}
-                     {% for toc_item in page.toc %}
-                        <li class="second-level"><a href="{{ toc_item.url }}">{{ toc_item.title }}</a></li>
+                        <li class="second-level{% if nav_grandchild == page %} active{% endif %}"><a href="{{ nav_grandchild.url }}">{{ nav_grandchild.title }}</a></li>
                      {% endfor %}
                   {% endif %}
                {% endif %}

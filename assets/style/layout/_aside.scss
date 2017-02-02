@@ -1,6 +1,6 @@
 aside{
-
-   width: 180px;
+   width: 267px;
+   padding-left: 58px;
 
    ul{
       position: fixed;
@@ -13,10 +13,9 @@ aside{
       &.second-level{
          a{
             margin-left: 16px;
-            font-weight: 400;
             font-size: $text-m;
-            line-height: $text-m;
-            padding:8px 12px 8px 0;
+            line-height: 3.6rem;
+            padding:0 12px 0 0;
          }
       }
 
@@ -38,7 +37,7 @@ aside{
          background: $color-background;
       }
 
-      &.active,&:hover{
+      &:hover{
 
          background: $color-background-active;
 
@@ -46,6 +45,12 @@ aside{
             background: $color-background-active;
          }
 
+      }
+      &.active{
+         a{
+            color: $color-active;
+            font-weight: 600;
+         }
       }
 
       &.selected{
@@ -57,13 +62,15 @@ aside{
       a{
          display: block;
          font-size: $text-l;
-         font-weight: 600;
          color: $color-link;
-         line-height: 1.8rem;
-         padding:12px 12px 12px 0;
+         line-height: 3.6rem;
+         padding:0 12px 0 0;
          position: relative;
          white-space: nowrap;
          overflow: hidden;
+         &:hover{
+            color: $color-active;
+         }
       }
    }
 }

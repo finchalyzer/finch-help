@@ -44,23 +44,23 @@ html{
 $text-s: 1.2rem;
 $text-m: 1.4rem;
 $text-l: 1.6rem;
-$text-xl: 2.1rem;
+$text-xl: 1.8rem;
 $text-xxl: 3.2rem;
 
 h1{
    font-size:$text-xl;
-   font-weight: 600;
-   color: $color-link;
    margin-bottom:$text-xl;
+   font-weight: 600;
+   color: $color-title;
    white-space: nowrap;
    position: relative;
 }
 
 h2{
    font-size: $text-l;
+   margin-bottom: $text-l;
    font-weight: 600;
-   color: $color-link;
-   margin-bottom: 16px;
+   color: $color-title;
 }
 
 h1, h2, h3{
@@ -86,7 +86,7 @@ h1, h2{
 
 p+h1, p+h2, ul+h1, ul+h2, blockquote+h2, blockquote+h1{
    padding-top: 75px;
-   margin-top: -55px;
+   margin-top: -65px;
 }
 
 h3{

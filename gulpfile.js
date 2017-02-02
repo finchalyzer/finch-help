@@ -1,6 +1,7 @@
 var gulp = require('gulp')
 var sass = require('gulp-sass')
 var typescript = require('gulp-typescript')
+var uglify = require('gulp-uglify');
 
 gulp.task('sass', function () {
    gulp.src('assets/style/*.scss')
@@ -11,6 +12,7 @@ gulp.task('sass', function () {
 gulp.task('ts', function () {
    gulp.src("assets/**/*.ts")
    .pipe(typescript('./tsconfig.json'))
+   .pipe(uglify())
    .pipe(gulp.dest('./theme/js/'))
 })
 

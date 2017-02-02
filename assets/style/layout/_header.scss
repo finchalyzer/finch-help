@@ -7,6 +7,7 @@ header{
    border-bottom: 2px solid $color-border;
    background: $color-background;
    position: fixed;
+   box-sizing: border-box;
    top: 0px;
    z-index: 3;
 
@@ -20,18 +21,28 @@ header{
       margin:0 auto;
    }
 
-   nav a{
+   h1{
+      font-weight: 300;
+      margin:0px;
+      padding:0px;
+   }
+
+   nav a, h1{
       color: $color-link;
-      font-size: $text-m;
+      font-size: $text-l;
       position: relative;
-      margin-right: 20px;
-      &:hover{
-         color: $color-active;
-      }
+      margin-right: 40px;
+   }
+   
+   nav a:hover{
+      color: $color-active;
    }
 
 }
 
+.home header{
+   border-color: #fff;
+}
 
 #finch-logo{
    width: 27px;
