@@ -46,33 +46,38 @@
             "title": "Selecting elements"
         }, 
         {
-            "location": "/desktop/hotkeys/", 
-            "text": "General shortcuts\n\n\n\n\nF\n show/hide editor\n\n\nR\n show/hide rulers\n\n\nM\n measure tool\n\n\n \nZ\n undo\n\n\n \n\u21e7\n \nZ\n redo\n\n\n\n\nBrowser\n\n\n\n\n \nR\n reload current page\n\n\n \n0\n make page full width\n\n\n \n1 - 3\n switch page size from desktop/tablet/mobile\n\n\n\n\nElement selection and resize\n\n\n\n\nEsc\n clear element selection\n\n\n \nclick\n add a unique element to selection\n\n\n\u21e7\n \nclick\n select multiple similar elements\n\n\nALT\n \nhover\n select multiple similar elements\n\n\n\n\nText elements\n\n\n\n\n \nB\n Bold\n\n\n \nI\n Italic\n\n\n \nU\n Underline\n\n\n\n\nCode\n\n\n\n\nC\n show/hide code console\n\n\n \nE\n export changes to file\n\n\n \n\u21e7\n \nE\n export minified and prefixed changes", 
-            "title": "Hotkeys"
+            "location": "/desktop/shortcuts/", 
+            "text": "General shortcuts\n\n\n\n\n \nT\n show \nComments\n\n\n \nY\n show \nHistory\n\n\n \n\u21e7\n \nM\n show \nMeasure tool\n\n\n \nZ\n undo\n\n\n \n\u21e7\n \nZ\n redo\n\n\n\n\nEditor\n\n\n\n\n \nE\n show \nEditor\n\n\n \n;\n show \nRulers\n\n\n \n'\n show \nMedia Editor\n\n\n \n0\n make the page fullsize\n\n\n \n1 - 4\n switch page size from predefined sizes\n\n\n\n\nBrowser\n\n\n\n\n \nR\n reload current page\n\n\n \n[\n open the previous page\n\n\n \n]\n open the next page\n\n\n\n\nElements\n\n\n\n\nEsc\n clear element selection\n\n\n \nclick\n add a unique element to selection\n\n\n\u21e7\n \nclick\n select multiple similar elements\n\n\n\u2325\n \nhover\n show distance helpers to selected element\n\n\n\n\nText elements\n\n\n\n\n \nB\n Bold\n\n\n \nI\n Italic\n\n\n \nU\n Underline\n\n\n\n\nCode\n\n\n\n\n \nJ\n show \nCode console\n\n\n \n\u21e7\n \nE\n export changes to a local file\n\n\n \n\u21e7\n \n\u2325\n \nE\n export minified and prefixed changes", 
+            "title": "Shortcuts"
         }, 
         {
-            "location": "/desktop/hotkeys/#general-shortcuts", 
-            "text": "F  show/hide editor  R  show/hide rulers  M  measure tool    Z  undo    \u21e7   Z  redo", 
+            "location": "/desktop/shortcuts/#general-shortcuts", 
+            "text": "T  show  Comments    Y  show  History    \u21e7   M  show  Measure tool    Z  undo    \u21e7   Z  redo", 
             "title": "General shortcuts"
         }, 
         {
-            "location": "/desktop/hotkeys/#browser", 
-            "text": "R  reload current page    0  make page full width    1 - 3  switch page size from desktop/tablet/mobile", 
+            "location": "/desktop/shortcuts/#editor", 
+            "text": "E  show  Editor    ;  show  Rulers    '  show  Media Editor    0  make the page fullsize    1 - 4  switch page size from predefined sizes", 
+            "title": "Editor"
+        }, 
+        {
+            "location": "/desktop/shortcuts/#browser", 
+            "text": "R  reload current page    [  open the previous page    ]  open the next page", 
             "title": "Browser"
         }, 
         {
-            "location": "/desktop/hotkeys/#element-selection-and-resize", 
-            "text": "Esc  clear element selection    click  add a unique element to selection  \u21e7   click  select multiple similar elements  ALT   hover  select multiple similar elements", 
-            "title": "Element selection and resize"
+            "location": "/desktop/shortcuts/#elements", 
+            "text": "Esc  clear element selection    click  add a unique element to selection  \u21e7   click  select multiple similar elements  \u2325   hover  show distance helpers to selected element", 
+            "title": "Elements"
         }, 
         {
-            "location": "/desktop/hotkeys/#text-elements", 
+            "location": "/desktop/shortcuts/#text-elements", 
             "text": "B  Bold    I  Italic    U  Underline", 
             "title": "Text elements"
         }, 
         {
-            "location": "/desktop/hotkeys/#code", 
-            "text": "C  show/hide code console    E  export changes to file    \u21e7   E  export minified and prefixed changes", 
+            "location": "/desktop/shortcuts/#code", 
+            "text": "J  show  Code console    \u21e7   E  export changes to a local file    \u21e7   \u2325   E  export minified and prefixed changes", 
             "title": "Code"
         }, 
         {

@@ -12,7 +12,7 @@ pages:
          - "desktop/index.md"
          - Installation: "desktop/installation.md"
          - Editor: "desktop/editor.md"
-         - Hotkeys: "desktop/hotkeys.md"
+         - Shortcuts: "desktop/shortcuts.md"
          - Media queries: "desktop/media-queries.md"
       - Wordpress:
          - "wordpress/index.md"
