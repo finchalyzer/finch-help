@@ -32,5 +32,5 @@ If the snippet is setup correctly – you are ready to go and you can setup any 
 
 The Finch snippet adds two files to your website:
 
-- a static CSS file that contains only the changes you made
-- the Finch javascript snippet that does nothing to your website for regular visitors. The snippet is only activated while sharing a version in private or presentation mode and adds the Finch sidebar to your site.
+1. a static CSS file that contains only the changes you made
+2. the Finch javascript snippet that does nothing to your website for regular visitors. The snippet is only activated while sharing a version in private or presentation mode and adds the Finch sidebar to your site.

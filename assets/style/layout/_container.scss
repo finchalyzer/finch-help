@@ -4,10 +4,12 @@ $aside-width: 220px;
    display: flex;
    width: 100vw;
    margin-top: $header-height;
-   padding: $gutter-l
+   padding: $gutter-l;
+   min-height: calc(100vh - 105px);
 }
 
 .home .container{
    display: block;
    padding: 0px;
+   min-height: calc(100vh - 121px);
 }

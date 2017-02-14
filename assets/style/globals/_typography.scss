@@ -99,7 +99,7 @@ h3{
    }
 }
 
-p, ul{
+p, ul, ol{
    font-size: $text-m;
    line-height: 28px;
    color: $color-body;
@@ -124,17 +124,17 @@ p, ul{
 
 }
 
-p+p, p+ul{
+p+p, p+ol{
    margin-top: -14px;
 }
 
-
-ul>li{
+ol>li{
    margin-left: 20px;
    &:before{
       content: "- ";
    }
 }
+
 
 strong em{
    display: inline-block;
