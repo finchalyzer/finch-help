@@ -1,0 +1,30 @@
+footer{
+   height: 40px;
+   width: 100vw;
+   background: #F3F5F7;
+   padding:0 30px;
+
+   a{
+      line-height: 40px;
+      font-size: 14px;
+      color: $color-border;
+      float: right;
+      margin-left: 20px;
+
+      svg{
+         margin-bottom: -3px;
+      }
+
+      &:first-child{
+         float: left;
+         margin-left: 0px;
+      }
+      &:hover{
+         color: $color-active;
+         svg path{
+            fill: $color-active;
+         }
+      }
+   }
+
+}
