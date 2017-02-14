@@ -1,4 +1,4 @@
-You can get the the latest version from the [official Wordpress Plugin Directory](https://wordpress.org/plugins-wp/finch/).
+You can get the the latest version from the [official Wordpress Plugin Directory](https://wordpress.org/plugins/finch/).
 
 After installing and activating it as any other Wordpress plugin, it is also necessary to connect the plugin with Finch. This is done by registering your Finch project's API credentials in the plugin settings view.
 

@@ -146,6 +146,31 @@
             "title": "Finch plugin can't write files on my server"
         }, 
         {
+            "location": "/live-setup/", 
+            "text": "You can automatically set live any of your projects versions you made with Finch. All of the versions changes will be applied to your website and visible to any visitor.\n\n\nNote: \n If your site is built with Wordpress, you can skip this part and use the \nFinch Wordpress plugin\n.\n\n\nCopy snippet\n\n\nTo set a version live, Finch needs to be connected to your website via a small code snippet.\n\n\nYou can find the snippet at your projects Connection settings.\n\n\n\n\n\n\n\n\nFinding projects snippet\n\n\n\n\n\n\nCopy-paste the snippet in your websites code right \nbefore\n the \n/head\n closing tag. It should look like this:\n\n\nCheck the connection\n\n\nAfter copying the snippet, at the Connection view, check if the setup was successful.\n\n\n\n\n\n\n\n\nCheck snippet status\n\n\n\n\n\n\nSet a version live\n\n\nIf the snippet is setup correctly \u2013 you are ready to go and you can setup any of the projects versions live.\n\n\nNote: \n All new changes made to a live version will be applied to the website automatically. If you want to avoid that \u2013 duplicate the version and make the changes there.\n\n\nHow does that work?\n\n\nThe Finch snippet adds two files to your website:\n\n\n\n\na static CSS file that contains only the changes you made\n\n\nthe Finch javascript snippet that does nothing to your website for regular visitors. The snippet is only activated while sharing a version in private or presentation mode and adds the Finch sidebar to your site.", 
+            "title": "Live setup"
+        }, 
+        {
+            "location": "/live-setup/#copy-snippet", 
+            "text": "To set a version live, Finch needs to be connected to your website via a small code snippet.  You can find the snippet at your projects Connection settings.     Finding projects snippet    Copy-paste the snippet in your websites code right  before  the  /head  closing tag. It should look like this:", 
+            "title": "Copy snippet"
+        }, 
+        {
+            "location": "/live-setup/#check-the-connection", 
+            "text": "After copying the snippet, at the Connection view, check if the setup was successful.     Check snippet status", 
+            "title": "Check the connection"
+        }, 
+        {
+            "location": "/live-setup/#set-a-version-live", 
+            "text": "If the snippet is setup correctly \u2013 you are ready to go and you can setup any of the projects versions live.  Note:   All new changes made to a live version will be applied to the website automatically. If you want to avoid that \u2013 duplicate the version and make the changes there.", 
+            "title": "Set a version live"
+        }, 
+        {
+            "location": "/live-setup/#how-does-that-work", 
+            "text": "The Finch snippet adds two files to your website:   a static CSS file that contains only the changes you made  the Finch javascript snippet that does nothing to your website for regular visitors. The snippet is only activated while sharing a version in private or presentation mode and adds the Finch sidebar to your site.", 
+            "title": "How does that work?"
+        }, 
+        {
             "location": "/faq/", 
             "text": "These are most common answers to frequently asked questions by Finch users.\n\n\nIf you don't find an answer you are looking for, please take a look at the \nDocumentation\n or drop a line to \nwin@finch.io\n\n\nWhat's the difference between Finch web and desktop applications?\n\n\nThe \nEditor\n is available only in the desktop application.\n\n\nWith both desktop and web applications you can add, manage, share your projects and versions. All team, account and connection settings are also there.\n\n\nIs Finch desktop available for Windows or Linux?\n\n\nNot yet, but that's not impossible \ud83e\udd14\n\n\nIf you have a serious need for this, please contact as at \nwin@finch.io\n\n\nCan I install Finch on multiple computers?\n\n\nYes! Finch is not limited to installation count. Your'e good to go as long as you're the only one using your Finch user account.\n\n\nHow can I report  a bug or submit a feature request?\n\n\nFinch desktop application has a built-in tool to submit feedback. Just go to \nFinch\n item in the menubar and select \nSend feedback\n.\n\n\nIn addition to the message you will provide, we will collect anonymized application state information \u2013 what Finch application windows are  open, in what state are they and the size of your screen.", 
             "title": "FAQ"

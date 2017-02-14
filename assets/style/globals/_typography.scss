@@ -92,7 +92,7 @@ p+h1, p+h2, ul+h1, ul+h2, blockquote+h2, blockquote+h1{
 h3{
    font-size: $text-m;
    font-weight: 600;
-   color: $color-link;
+   color: $color-title;
    margin-bottom: 16px;
    >a{
       font-size: $text-m;
@@ -124,8 +124,16 @@ p, ul{
 
 }
 
-p+p{
+p+p, p+ul{
    margin-top: -14px;
+}
+
+
+ul>li{
+   margin-left: 20px;
+   &:before{
+      content: "- ";
+   }
 }
 
 strong em{
@@ -163,6 +171,14 @@ ul li strong em{
       right:-14px;
    }
 
+}
+
+p>code{
+   border: 1px solid #E1E1E8;
+   padding:0 4px;
+   border-radius: 3px;
+   color: #CC2255;
+   background: #F7F7F9;
 }
 
 strong em code{

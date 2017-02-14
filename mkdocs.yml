@@ -3,6 +3,7 @@ theme: null
 theme_dir: "theme"
 docs_dir: "content"
 site_dir: "docs"
+ga: "UA-65681916-4"
 
 pages:
    - Home: "index.md"
@@ -19,6 +20,7 @@ pages:
          - Installation: "wordpress/installation.md"
          - Usage: "wordpress/usage.md"
          - Troubleshooting: "wordpress/troubleshooting.md"
+      - Live setup: "live-setup.md"
    - FAQ: "faq.md"
    - Support: "support.md"
 
