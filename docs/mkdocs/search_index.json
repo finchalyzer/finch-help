@@ -82,12 +82,12 @@
         }, 
         {
             "location": "/desktop/media-queries/", 
-            "text": "Media Editor lets you create and adjust element style in certain browser width or height.\n\n\nTo activate Media Editor, navigate in main menu \nView-\nMedia Editor\n or use \n \n\u21e7\n \nE\n\n\nCreating breakpoints\n\n\nTo create a new breakpoint \n \nclick\n on the media query bar at the preferred position.\n\n\n\n\n\n\n\n\n \nclick\n to add new breakpoint\n\n\n\n\n\n\nSelecting media queries\n\n\nTo make changes only in a certain media range, \nclick\n on the media range.\n\n\nUse \n\u21e7\n \nclick\n to select multiple media queries.\n\n\n\n\n\n\n\n\n\u21e7\n \nclick\n to select multiple media queries", 
+            "text": "Media Editor lets you create and adjust element style in certain browser width or height.\n\n\nTo activate Media Editor, navigate in main menu \nView-\nMedia Editor\n or use \n \n'\n\n\nCreating breakpoints\n\n\nTo create a new breakpoint select the element and \n \nclick\n  on the media query bar at the preferred position.\n\n\n\n\n\n\n\n\n \nclick\n to add new breakpoint\n\n\n\n\n\n\nSelecting media queries\n\n\nTo make changes only in a certain media range, \nclick\n on the media range.\n\n\nUse \n\u21e7\n \nclick\n to select multiple media queries.\n\n\n\n\n\n\n\n\n\u21e7\n \nclick\n to select multiple media queries", 
             "title": "Media queries"
         }, 
         {
             "location": "/desktop/media-queries/#creating-breakpoints", 
-            "text": "To create a new breakpoint    click  on the media query bar at the preferred position.       click  to add new breakpoint", 
+            "text": "To create a new breakpoint select the element and    click   on the media query bar at the preferred position.       click  to add new breakpoint", 
             "title": "Creating breakpoints"
         }, 
         {
