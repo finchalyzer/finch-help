@@ -2,4 +2,4 @@ Finch Wordpress plugin is a seamless integration, allowing you to access all of 
 
 ## Links and resources
 
-- [Finch Wordpress plugin page](https://wordpress.org/plugins-wp/finch/)
+- [Finch Wordpress plugin page](https://wordpress.org/plugins/finch/)
