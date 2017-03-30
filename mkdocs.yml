@@ -15,6 +15,7 @@ pages:
          - Editor: "desktop/editor.md"
          - Shortcuts: "desktop/shortcuts.md"
          - Media queries: "desktop/media-queries.md"
+         - Styles: "desktop/styles.md"
       - Wordpress:
          - "wordpress/index.md"
          - Installation: "wordpress/installation.md"
