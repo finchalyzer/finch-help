@@ -2,22 +2,23 @@ Finch lets you save your element styles and reuse them for other elements in the
 
 ## Usage
 
-Styles can be managed from the editor sidebar and are separated into text styles and box styles, a system similar to how styles are organized in Sketch.
+Styles are separated into Text Styles and Box Styles, a system similar to how styles are organized in Sketch. They can be created and applied from the respective style dropdowns in either the **Type** or **Box** section of the editor sidebar.
 
-### Text Styles
+These dropdowns list all your created styles and can be used to create new ones. To apply an existing style, select the target element and simply choose the style you want from the dropdown. 
 
-Text Styles can be defined and applied from the text styles dropdown in the **Type** section of the editor. They can contain all the text-related properties that are found under the Type section.
+### Creating a Style
 
-### Box Styles
+To create a new style, **_click_** on either the Text Style dropdown or the Box Style dropdown and select **Create New Style**. 
+The element you have selected will act as the base for your new style and it will contain all the respective properties that were defined on the base element.
 
-Properties that affect the box-container of an element like fill, borders and radius can be managed using Box Styles. They're similarly defined and applied from the box styles dropdown in the **Box** section of the editor.
+### Updating a Style
 
+If you change an element that has a style applied, it will not automatically change the style globally. To apply the newly made changes to the style, **_click_** on the sync button that will appear on the right side of the style dropdown after you've made the changes.
 
 ## Responsive Styles
-The styles are responsive and can be utilised together with the Media Editor.
+All the styles are responsive and can be utilised together with the Media Editor.
 
-
-To create a responsive style, open the Media Editor and select the preferred media range. All style changes made at this point will only affect the selected range. One style can contain different properties for multiple media ranges.
+To make a style responsive, open the Media Editor and select the preferred media range. All style changes made at this point will only affect the selected range. One style can contain different properties for multiple media ranges.
 
 To learn more about using the Media Editor, please check the [Media queries](/desktop/media-queries.md) section.
 
