@@ -4,7 +4,7 @@
    <meta charset="utf-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Media queries - Finch.io help page</title>
+   <title>Styles - Finch.io help page</title>
    <link href="../../css/style.css?v=0.0.2" rel="stylesheet">
 </head>
 <body>
@@ -85,9 +85,9 @@
                   
                      <li class="second-level"><a href="../shortcuts/">Shortcuts</a></li>
                   
-                     <li class="second-level active"><a href="./">Media queries</a></li>
+                     <li class="second-level"><a href="../media-queries/">Media queries</a></li>
                   
-                     <li class="second-level"><a href="../styles/">Styles</a></li>
+                     <li class="second-level active"><a href="./">Styles</a></li>
                   
                
                
@@ -120,27 +120,28 @@
       
       <section>
    
-   <h1>Media queries</h1>
+   <h1>Styles</h1>
    
-   <p>Media Editor lets you create and adjust element style in certain browser width or height.</p>
-<p>To activate Media Editor, navigate in main menu <em>View-&gt;Media Editor</em> or use <strong><em><code></code></em></strong> <strong><em>'</em></strong></p>
-<h2 id="creating-breakpoints">Creating breakpoints<a class="headerlink" href="#creating-breakpoints" title="Permanent link">&para;</a></h2>
-<p>To create a new breakpoint select the element and <strong><em><code></code></em></strong> <strong><em>click</em></strong>  on the media query bar at the preferred position.</p>
+   <p>Finch lets you save your element styles and reuse them for other elements in the version you're working on.</p>
+<h2 id="usage">Usage<a class="headerlink" href="#usage" title="Permanent link">&para;</a></h2>
+<p>Styles are separated into Text Styles and Box Styles, a system similar to how styles are organized in Sketch. They can be created and applied from the respective style dropdowns in either the <strong>Type</strong> or <strong>Box</strong> section of the editor sidebar.</p>
+<p>These dropdowns list all your created styles and can be used to create new ones. To apply an existing style, select the target element and simply choose the style you want from the dropdown. </p>
+<h3 id="creating-a-style">Creating a Style<a class="headerlink" href="#creating-a-style" title="Permanent link">&para;</a></h3>
+<p>To create a new style, <strong><em>click</em></strong> on either the Text Style dropdown or the Box Style dropdown and select <strong>Create New Style</strong>. 
+The element you have selected will act as the base for your new style and it will contain all the respective properties that were defined on the base element.</p>
+<h3 id="updating-a-style">Updating a Style<a class="headerlink" href="#updating-a-style" title="Permanent link">&para;</a></h3>
+<p>If you change an element that has a style applied, it will not automatically change the style globally. To apply the newly made changes to the style, <strong><em>click</em></strong> on the sync button that will appear on the right side of the style dropdown after you've made the changes.</p>
+<h2 id="responsive-styles">Responsive Styles<a class="headerlink" href="#responsive-styles" title="Permanent link">&para;</a></h2>
+<p>All the styles are responsive and can be utilised together with the Media Editor.</p>
+<p>To make a style responsive, open the Media Editor and select the preferred media range. All style changes made at this point will only affect the selected range. One style can contain different properties for multiple media ranges.</p>
+<p>To learn more about using the Media Editor, please check the <a href="../media-queries/">Media queries</a> section.</p>
+<h2 id="importing-from-sketch">Importing from Sketch<a class="headerlink" href="#importing-from-sketch" title="Permanent link">&para;</a></h2>
+<p>If you're using Sketch, you can also import all your Sketch styles directly into Finch. To do this, you must first install the <a href="https://github.com/finchalyzer/finch-sketch">Finch Sketch plugin</a>.</p>
+<p>After installing it you can export them by selecting <strong>Plugins -&gt; Finch -&gt; Export Styles</strong> from the Sketch top menu bar. This will open Finch app and prompt you to choose the target project and version.</p>
 <blockquote>
-<p><img alt="" src="../../img/new-breakpoint.gif" /></p>
-<blockquote>
-<p><strong><em><code></code></em></strong> <strong><em>click</em></strong> to add new breakpoint</p>
+<p><img alt="" src="../../img/sketch-plugin.gif" /></p>
 </blockquote>
-</blockquote>
-<h2 id="selecting-media-queries">Selecting media queries<a class="headerlink" href="#selecting-media-queries" title="Permanent link">&para;</a></h2>
-<p>To make changes only in a certain media range, <strong><em>click</em></strong> on the media range.</p>
-<p>Use <strong><em>⇧</em></strong> <strong><em>click</em></strong> to select multiple media queries.</p>
-<blockquote>
-<p><img alt="" src="../../img/select-media-query.gif" /></p>
-<blockquote>
-<p><strong><em>⇧</em></strong> <strong><em>click</em></strong> to select multiple media queries</p>
-</blockquote>
-</blockquote>
+<p>Our Sketch plugin can also be used to export your defined Sketch document colors to your Finch project's color palette. To do this, select <strong>Plugins -&gt; Finch -&gt; Export Document Colors</strong>. This will again prompt you to select the target project and version.</p>
 </section>
       
       

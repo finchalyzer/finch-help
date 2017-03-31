@@ -96,6 +96,36 @@
             "title": "Selecting media queries"
         }, 
         {
+            "location": "/desktop/styles/", 
+            "text": "Finch lets you save your element styles and reuse them for other elements in the version you're working on.\n\n\nUsage\n\n\nStyles are separated into Text Styles and Box Styles, a system similar to how styles are organized in Sketch. They can be created and applied from the respective style dropdowns in either the \nType\n or \nBox\n section of the editor sidebar.\n\n\nThese dropdowns list all your created styles and can be used to create new ones. To apply an existing style, select the target element and simply choose the style you want from the dropdown. \n\n\nCreating a Style\n\n\nTo create a new style, \nclick\n on either the Text Style dropdown or the Box Style dropdown and select \nCreate New Style\n. \nThe element you have selected will act as the base for your new style and it will contain all the respective properties that were defined on the base element.\n\n\nUpdating a Style\n\n\nIf you change an element that has a style applied, it will not automatically change the style globally. To apply the newly made changes to the style, \nclick\n on the sync button that will appear on the right side of the style dropdown after you've made the changes.\n\n\nResponsive Styles\n\n\nAll the styles are responsive and can be utilised together with the Media Editor.\n\n\nTo make a style responsive, open the Media Editor and select the preferred media range. All style changes made at this point will only affect the selected range. One style can contain different properties for multiple media ranges.\n\n\nTo learn more about using the Media Editor, please check the \nMedia queries\n section.\n\n\nImporting from Sketch\n\n\nIf you're using Sketch, you can also import all your Sketch styles directly into Finch. To do this, you must first install the \nFinch Sketch plugin\n.\n\n\nAfter installing it you can export them by selecting \nPlugins -\n Finch -\n Export Styles\n from the Sketch top menu bar. This will open Finch app and prompt you to choose the target project and version.\n\n\n\n\n\n\n\n\nOur Sketch plugin can also be used to export your defined Sketch document colors to your Finch project's color palette. To do this, select \nPlugins -\n Finch -\n Export Document Colors\n. This will again prompt you to select the target project and version.", 
+            "title": "Styles"
+        }, 
+        {
+            "location": "/desktop/styles/#usage", 
+            "text": "Styles are separated into Text Styles and Box Styles, a system similar to how styles are organized in Sketch. They can be created and applied from the respective style dropdowns in either the  Type  or  Box  section of the editor sidebar.  These dropdowns list all your created styles and can be used to create new ones. To apply an existing style, select the target element and simply choose the style you want from the dropdown.", 
+            "title": "Usage"
+        }, 
+        {
+            "location": "/desktop/styles/#creating-a-style", 
+            "text": "To create a new style,  click  on either the Text Style dropdown or the Box Style dropdown and select  Create New Style . \nThe element you have selected will act as the base for your new style and it will contain all the respective properties that were defined on the base element.", 
+            "title": "Creating a Style"
+        }, 
+        {
+            "location": "/desktop/styles/#updating-a-style", 
+            "text": "If you change an element that has a style applied, it will not automatically change the style globally. To apply the newly made changes to the style,  click  on the sync button that will appear on the right side of the style dropdown after you've made the changes.", 
+            "title": "Updating a Style"
+        }, 
+        {
+            "location": "/desktop/styles/#responsive-styles", 
+            "text": "All the styles are responsive and can be utilised together with the Media Editor.  To make a style responsive, open the Media Editor and select the preferred media range. All style changes made at this point will only affect the selected range. One style can contain different properties for multiple media ranges.  To learn more about using the Media Editor, please check the  Media queries  section.", 
+            "title": "Responsive Styles"
+        }, 
+        {
+            "location": "/desktop/styles/#importing-from-sketch", 
+            "text": "If you're using Sketch, you can also import all your Sketch styles directly into Finch. To do this, you must first install the  Finch Sketch plugin .  After installing it you can export them by selecting  Plugins -  Finch -  Export Styles  from the Sketch top menu bar. This will open Finch app and prompt you to choose the target project and version.     Our Sketch plugin can also be used to export your defined Sketch document colors to your Finch project's color palette. To do this, select  Plugins -  Finch -  Export Document Colors . This will again prompt you to select the target project and version.", 
+            "title": "Importing from Sketch"
+        }, 
+        {
             "location": "/wordpress/", 
             "text": "Finch Wordpress plugin is a seamless integration, allowing you to access all of your site's versions and to set them live instantly from the Wordpress Dashboard.\n\n\nLinks and resources\n\n\n\n\nFinch Wordpress plugin page", 
             "title": "Wordpress"
