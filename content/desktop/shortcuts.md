@@ -1,14 +1,13 @@
 ### General shortcuts
 
-* **_` `_** **_T_** show __Comments__
 * **_` `_** **_Y_** show __History__
-* **_` `_** **_⇧_** **_M_** show __Measure tool__
+* **_` `_** **_E_** show __Editor__
 * **_` `_** **_Z_** undo
 * **_` `_** **_⇧_** **_Z_** redo
 
 ### Editor
 
-* **_` `_** **_E_** show __Editor__
+* **_` `_** **_⇧_** **_M_** show __Measure tool__
 * **_` `_** **_;_** show __Rulers__
 * **_` `_** **_'_** show __Media Editor__
 * **_` `_** **_0_** make the page fullsize

@@ -37,27 +37,32 @@
         }, 
         {
             "location": "/desktop/editor/", 
-            "text": "This is the very heart of Finch. The editor gives you the power to edit element style and position.\n\n\nSelecting elements\n\n\nTo edit an element just click on it and make the changes in the editor sidebar.\n\n\nTo select multiple elements at once use \n \nclick\n.\n\n\n\n\n\n\n\n\n \nclick\n to select unique elements\n\n\n\n\n\n\nTo select similar elements \n(e.g. menu elements)\n first select one of them and then \n\u21e7\n \nclick\n another. Finch will use a \nsmart selector\n that will select all the other similar elements in the current page.\n\n\n\n\n\n\n\n\n\u21e7\n \nclick\n to select similar elements", 
+            "text": "This is the very heart of Finch. The editor gives you the power to edit element's style and position.\n\n\nTo activate the editor, hit \n \nE\n or choose from menu \nView-\nEditor\n.\n\n\nYou are ecnouraged to experiment with all the features the editor sidebar has to offer. In this documentation we will describe only the hidden gems that are not visible on the first look.\n\n\nSelecting elements\n\n\nTo edit an element just click on it and make the changes in the editor sidebar.\n\n\nTo select multiple elements at once use \n \nclick\n.\n\n\n\n\n\n\n\n\n \nclick\n to select unique elements\n\n\n\n\n\n\nTo select similar elements \n(e.g. menu elements)\n first select one of them and then \n\u21e7\n \nclick\n another. Finch will use a \nsmart selector\n that will select all the other similar elements in the current page.\n\n\n\n\n\n\n\n\n\u21e7\n \nclick\n to select similar elements\n\n\n\n\n\n\nYou can use \nright click\n to access selections parent elements in case it's not possible to access them directly.\n\n\n\n\n\n\n\n\nright click\n to navigate element tree\n\n\n\n\n\n\nMeasure tools\n\n\nTo measure distance between two elements, simply select one, hold \n\u2325\n and move your mouse over the second one.\n\n\n\n\n\n\n\n\n\u2325\n distance tool\n\n\n\n\n\n\nTo measure things in free mode, active the Measure tool with \n \n\u21e7\n \nM\n \n\n\n\n\n\n\n\n\n \n\u21e7\n \nM\n measure tool", 
             "title": "Editor"
         }, 
         {
             "location": "/desktop/editor/#selecting-elements", 
-            "text": "To edit an element just click on it and make the changes in the editor sidebar.  To select multiple elements at once use    click .       click  to select unique elements    To select similar elements  (e.g. menu elements)  first select one of them and then  \u21e7   click  another. Finch will use a  smart selector  that will select all the other similar elements in the current page.     \u21e7   click  to select similar elements", 
+            "text": "To edit an element just click on it and make the changes in the editor sidebar.  To select multiple elements at once use    click .       click  to select unique elements    To select similar elements  (e.g. menu elements)  first select one of them and then  \u21e7   click  another. Finch will use a  smart selector  that will select all the other similar elements in the current page.     \u21e7   click  to select similar elements    You can use  right click  to access selections parent elements in case it's not possible to access them directly.     right click  to navigate element tree", 
             "title": "Selecting elements"
         }, 
         {
+            "location": "/desktop/editor/#measure-tools", 
+            "text": "To measure distance between two elements, simply select one, hold  \u2325  and move your mouse over the second one.     \u2325  distance tool    To measure things in free mode, active the Measure tool with    \u21e7   M         \u21e7   M  measure tool", 
+            "title": "Measure tools"
+        }, 
+        {
             "location": "/desktop/shortcuts/", 
-            "text": "General shortcuts\n\n\n\n\n \nT\n show \nComments\n\n\n \nY\n show \nHistory\n\n\n \n\u21e7\n \nM\n show \nMeasure tool\n\n\n \nZ\n undo\n\n\n \n\u21e7\n \nZ\n redo\n\n\n\n\nEditor\n\n\n\n\n \nE\n show \nEditor\n\n\n \n;\n show \nRulers\n\n\n \n'\n show \nMedia Editor\n\n\n \n0\n make the page fullsize\n\n\n \n1 - 4\n switch page size from predefined sizes\n\n\n\n\nBrowser\n\n\n\n\n \nR\n reload current page\n\n\n \n[\n open the previous page\n\n\n \n]\n open the next page\n\n\n\n\nElements\n\n\n\n\nEsc\n clear element selection\n\n\n \nclick\n add a unique element to selection\n\n\n\u21e7\n \nclick\n select multiple similar elements\n\n\n\u2325\n \nhover\n show distance helpers to selected element\n\n\n\n\nText elements\n\n\n\n\n \nB\n Bold\n\n\n \nI\n Italic\n\n\n \nU\n Underline\n\n\n\n\nCode\n\n\n\n\n \nJ\n show \nCode console\n\n\n \n\u21e7\n \nE\n export changes to a local file\n\n\n \n\u21e7\n \n\u2325\n \nE\n export minified and prefixed changes", 
+            "text": "General shortcuts\n\n\n\n\n \nY\n show \nHistory\n\n\n \nE\n show \nEditor\n\n\n \nZ\n undo\n\n\n \n\u21e7\n \nZ\n redo\n\n\n\n\nEditor\n\n\n\n\n \n\u21e7\n \nM\n show \nMeasure tool\n\n\n \n;\n show \nRulers\n\n\n \n'\n show \nMedia Editor\n\n\n \n0\n make the page fullsize\n\n\n \n1 - 4\n switch page size from predefined sizes\n\n\n\n\nBrowser\n\n\n\n\n \nR\n reload current page\n\n\n \n[\n open the previous page\n\n\n \n]\n open the next page\n\n\n\n\nElements\n\n\n\n\nEsc\n clear element selection\n\n\n \nclick\n add a unique element to selection\n\n\n\u21e7\n \nclick\n select multiple similar elements\n\n\n\u2325\n \nhover\n show distance helpers to selected element\n\n\n\n\nText elements\n\n\n\n\n \nB\n Bold\n\n\n \nI\n Italic\n\n\n \nU\n Underline\n\n\n\n\nCode\n\n\n\n\n \nJ\n show \nCode console\n\n\n \n\u21e7\n \nE\n export changes to a local file\n\n\n \n\u21e7\n \n\u2325\n \nE\n export minified and prefixed changes", 
             "title": "Shortcuts"
         }, 
         {
             "location": "/desktop/shortcuts/#general-shortcuts", 
-            "text": "T  show  Comments    Y  show  History    \u21e7   M  show  Measure tool    Z  undo    \u21e7   Z  redo", 
+            "text": "Y  show  History    E  show  Editor    Z  undo    \u21e7   Z  redo", 
             "title": "General shortcuts"
         }, 
         {
             "location": "/desktop/shortcuts/#editor", 
-            "text": "E  show  Editor    ;  show  Rulers    '  show  Media Editor    0  make the page fullsize    1 - 4  switch page size from predefined sizes", 
+            "text": "\u21e7   M  show  Measure tool    ;  show  Rulers    '  show  Media Editor    0  make the page fullsize    1 - 4  switch page size from predefined sizes", 
             "title": "Editor"
         }, 
         {
