@@ -1,7 +1,7 @@
 ### General shortcuts
 
-* **_` `_** **_Y_** show __History__
 * **_` `_** **_E_** show __Editor__
+* **_` `_** **_Y_** show __Activity__
 * **_` `_** **_Z_** undo
 * **_` `_** **_⇧_** **_Z_** redo
 
