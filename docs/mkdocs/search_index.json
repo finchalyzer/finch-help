@@ -52,12 +52,12 @@
         }, 
         {
             "location": "/desktop/shortcuts/", 
-            "text": "General shortcuts\n\n\n\n\n \nY\n show \nHistory\n\n\n \nE\n show \nEditor\n\n\n \nZ\n undo\n\n\n \n\u21e7\n \nZ\n redo\n\n\n\n\nEditor\n\n\n\n\n \n\u21e7\n \nM\n show \nMeasure tool\n\n\n \n;\n show \nRulers\n\n\n \n'\n show \nMedia Editor\n\n\n \n0\n make the page fullsize\n\n\n \n1 - 4\n switch page size from predefined sizes\n\n\n\n\nBrowser\n\n\n\n\n \nR\n reload current page\n\n\n \n[\n open the previous page\n\n\n \n]\n open the next page\n\n\n\n\nElements\n\n\n\n\nEsc\n clear element selection\n\n\n \nclick\n add a unique element to selection\n\n\n\u21e7\n \nclick\n select multiple similar elements\n\n\n\u2325\n \nhover\n show distance helpers to selected element\n\n\n\n\nText elements\n\n\n\n\n \nB\n Bold\n\n\n \nI\n Italic\n\n\n \nU\n Underline\n\n\n\n\nCode\n\n\n\n\n \nJ\n show \nCode console\n\n\n \n\u21e7\n \nE\n export changes to a local file\n\n\n \n\u21e7\n \n\u2325\n \nE\n export minified and prefixed changes", 
+            "text": "General shortcuts\n\n\n\n\n \nE\n show \nEditor\n\n\n \nY\n show \nActivity\n\n\n \nZ\n undo\n\n\n \n\u21e7\n \nZ\n redo\n\n\n\n\nEditor\n\n\n\n\n \n\u21e7\n \nM\n show \nMeasure tool\n\n\n \n;\n show \nRulers\n\n\n \n'\n show \nMedia Editor\n\n\n \n0\n make the page fullsize\n\n\n \n1 - 4\n switch page size from predefined sizes\n\n\n\n\nBrowser\n\n\n\n\n \nR\n reload current page\n\n\n \n[\n open the previous page\n\n\n \n]\n open the next page\n\n\n\n\nElements\n\n\n\n\nEsc\n clear element selection\n\n\n \nclick\n add a unique element to selection\n\n\n\u21e7\n \nclick\n select multiple similar elements\n\n\n\u2325\n \nhover\n show distance helpers to selected element\n\n\n\n\nText elements\n\n\n\n\n \nB\n Bold\n\n\n \nI\n Italic\n\n\n \nU\n Underline\n\n\n\n\nCode\n\n\n\n\n \nJ\n show \nCode console\n\n\n \n\u21e7\n \nE\n export changes to a local file\n\n\n \n\u21e7\n \n\u2325\n \nE\n export minified and prefixed changes", 
             "title": "Shortcuts"
         }, 
         {
             "location": "/desktop/shortcuts/#general-shortcuts", 
-            "text": "Y  show  History    E  show  Editor    Z  undo    \u21e7   Z  redo", 
+            "text": "E  show  Editor    Y  show  Activity    Z  undo    \u21e7   Z  redo", 
             "title": "General shortcuts"
         }, 
         {
